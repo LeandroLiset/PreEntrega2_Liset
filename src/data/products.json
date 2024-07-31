@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "name": "Quilmes",
+        "category":"cervezas",
+        "img": "https://http2.mlstatic.com/D_NQ_NP_2X_957274-MLU74220040081_012024-F.webp",
+        "detail": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen."
+        
+    },
+    {
+        "id": 2,
+        "name": "Bombay",
+        "category":"gins",
+        "img": "https://http2.mlstatic.com/D_NQ_NP_2X_829712-MLA74780593963_022024-F.webp",
+        "detail": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen."
+    },
+    {
+        "id": 3,
+        "name": "Rutini",
+        "category":"vinos",
+        "img": "https://http2.mlstatic.com/D_NQ_NP_2X_826358-MLA49900398110_052022-F.webp",
+        "detail": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen."
+    },
+    {
+        "id": 4,
+        "name": "Glenffidich",
+        "category":"whiskies",
+        "img": "https://http2.mlstatic.com/D_NQ_NP_2X_674803-MLA70791194702_082023-F.webp",
+        "detail": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen."
+    }
+]
