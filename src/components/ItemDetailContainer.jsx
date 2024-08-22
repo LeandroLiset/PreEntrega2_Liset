@@ -15,7 +15,11 @@ export const ItemDetailContainer = () => {
 
     const { id } = useParams();
 
-    // const value = useContext(ItemsContext);
+    const { addItem } = useContext(ItemsContext);
+
+    const onAdd = (count) => {
+        addItem({...item, quantity: count});
+    };
 
     useEffect(() => {
         const db = getFirestore();
@@ -44,7 +48,7 @@ export const ItemDetailContainer = () => {
             <h4>{item.categoryId}</h4>
             <p>{item.description}</p>
             <h3>Precio: ${item.price}</h3>
-            <ItemCount stock={item.stock} />
+            <ItemCount stock={item.stock} onAdd={onAdd} />
         </Container>
     );
 }; 
