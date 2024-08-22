@@ -3,9 +3,11 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { NavBar } from "./components/NavBar";
 import { ItemListContainer } from "./components/ItemListContainer";
 import { ItemDetailContainer } from "./components/ItemDetailContainer";
+import { Provider  } from "./contexts/ItemContext";
 
 function App() {
   return (
+    <Provider>
     <BrowserRouter>
       <NavBar />
       <Routes>
@@ -15,6 +17,7 @@ function App() {
         <Route path="*" element={404} />
       </Routes>
     </BrowserRouter>
+    </Provider>
   );
 }
 
