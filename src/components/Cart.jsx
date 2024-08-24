@@ -69,6 +69,7 @@ export const Cart = () => {
                     <h2>Valor unitario: ${i.price}</h2>
                     <h3>Cantidad {i.quantity}</h3>
                     <img src={i.imageId} height={50} alt="" />
+                    <span onClick={() => removeItem(i.id)}>X</span>
                 </div>
             ))}
             <h2>Total: {total}</h2>

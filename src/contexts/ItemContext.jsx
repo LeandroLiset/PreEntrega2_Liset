@@ -25,8 +25,8 @@ const addItem = (item) => {
 }; 
 
 const removeItem = (id) => {
-    const remove = items.find(i => i.id !== id);
-    setItems(remove);
+    const updatedItems = items.filter(i => i.id !== id);
+    setItems(updatedItems);
 };
 
     return <ItemsContext.Provider value={{ addItem, items, reset, removeItem }}>{children}</ItemsContext.Provider>;
