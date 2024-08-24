@@ -66,13 +66,12 @@ export const Cart = () => {
             {items?.map((i) => (
                 <div key={i.id}>
                     <h1>{i.title}</h1>
-                    <h2>{i.price}</h2>
-                    <h3>{i.quantity}</h3>
+                    <h2>Valor unitario: ${i.price}</h2>
+                    <h3>Cantidad {i.quantity}</h3>
                     <img src={i.imageId} height={50} alt="" />
-                    <span onClick={() => removeItem(i.id)}>X</span>
                 </div>
             ))}
-            <h3>Total: {total}</h3>
+            <h2>Total: {total}</h2>
             <hr />
             {!!items.length &&
                 <form>

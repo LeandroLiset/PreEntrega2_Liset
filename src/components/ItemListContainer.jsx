@@ -62,17 +62,3 @@ export const ItemListContainer = () => {
         </Container>);
 };
 
-
-
-// new Promise((resolve, reject) => {
-        //     setTimeout(() => resolve(data), 2000);
-        // })
-        //     .then((response) => {
-        //         if(!id) {
-        //             setItems(response)
-        //         } else{
-        //             const filtered = response.filter((i) => i.category === id);
-        //             setItems(filtered);
-        //         }     
-        //     })
-        //     .finally(() => setLoading(false));
